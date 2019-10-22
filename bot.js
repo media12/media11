@@ -179,11 +179,7 @@ client.on("message", message => { //clear
           }
         }}).then(msg => {msg.delete(3000)});
                             }
-  client.on('message', luxy => {
-if(luxy.content === 'هلاو') {
-luxy.reply('هلابيك حبيبي نورت');
-}
-});
+  
 });
 
 
