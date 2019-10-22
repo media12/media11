@@ -179,8 +179,11 @@ client.on("message", message => { //clear
           }
         }}).then(msg => {msg.delete(3000)});
                             }
-  client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("id");  let c = g.channels.get("id"); if(c.type === 'voice') { c.join(); setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else { console.log('Failed To Join: \n The Channel Type isn "Listening."') } });
-       
+  client.on('message', luxy => {
+if(luxy.content === 'هلاو') {
+luxy.reply('هلابيك حبيبي نورت');
+}
+});
 });
 
 
