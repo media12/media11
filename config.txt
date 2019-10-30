@@ -3,4 +3,4 @@ prefix=x
 game=media bot | xplay
 stayinchannel=true
 songinstatus=false
-token=NjM1NTYyMDU5NjA5OTMxNzk3.XbEPQA.9vwX_9tg1gf9iWPO-XSedVd6_wg
+token=NjEwMzI0MDc3ODE4OTM3MzQ1.XblyNg.FwPPinyDV4EBntHcPbOUIiMdjkU
