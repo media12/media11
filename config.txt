@@ -1,6 +1,0 @@
-owner=524098806296477697
-prefix=x
-game=media bot | xplay
-stayinchannel=true
-songinstatus=false
-token=NjEwMzI0MDc3ODE4OTM3MzQ1.XblyNg.FwPPinyDV4EBntHcPbOUIiMdjkU
