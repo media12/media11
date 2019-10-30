@@ -1,4 +1,4 @@
-﻿/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
 // Config for the JMusicBot                            //
 /////////////////////////////////////////////////////////
 // Any line starting with // is ignored                //
@@ -26,9 +26,10 @@ owner = 524098806296477697
 // This sets the prefix for the bot
 // The prefix is used to control the commands
 // If you use !!, the play command will be !!play
-// If you do not set this, the prefix will be an @mention of the bot (@Botname play)
+// If you do not set this, the prefix will be a mention of the bot (@Botname play)
+// If you make this blank, the bot will not use a prefix
 
-prefix = "@2play"
+prefix = "@mention"
 
 
 // If you set this, it modifies the default game of the bot
@@ -38,7 +39,7 @@ prefix = "@2play"
 // where X is the title. If you don't include an action, it will use the
 // default of "Playing"
 
-game = "2play | media "
+game = "DEFAULT"
 
 
 // If you set this, it will modify the default status of bot
@@ -51,7 +52,7 @@ status = ONLINE
 // "Playing" status. Note that this will ONLY work if the bot is playing music on ONE guild;
 // if the bot is playing on multiple guilds, this will not work.
 
-songinstatus = false
+songinstatus=false
 
 
 // If you set this, the bot will also use this prefix in addition to
@@ -73,7 +74,7 @@ searching = "🔎"
 // For example, if you set the prefix to !! and the help to cmds, you would type
 // !!cmds to see the help text
 
-help = "help"
+help = help
 
 
 // If you set this, the "nowplaying" command will show youtube thumbnails
@@ -101,13 +102,13 @@ maxtime = 0
 // This sets an alternative folder to be used as the Playlists folder
 // This can be a relative or absolute path
 
-playlistsfolder = Playlists
+playlistsfolder = "Playlists"
 
 
 // By default, the bot will DM the owner if the bot is running and a new version of the bot
 // becomes available. Set this to false to disable this feature.
 
-updatealerts = true
+updatealerts=true
 
 
 // Changing this changes the lyrics provider
@@ -132,4 +133,4 @@ lyrics.default = "A-Z Lyrics"
 // DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT THIS DOES OR HOW TO USE IT
 // IF SOMEONE ASKS YOU TO ENABLE THIS, THERE IS AN 11/10 CHANCE THEY ARE TRYING TO SCAM YOU
 
-eval = false
+eval=false
